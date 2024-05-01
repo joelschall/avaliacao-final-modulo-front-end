@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.sideBar {
+    float: left;
+    background-color: #7a4417;
+    width: 300px;
+    height: 100vh;
+    text-align: center;
+    top: 0;
+}
+
+.fotoPerfil {
+    position: relative;
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px #ffffff solid;
+    top: 100px;
+}
+
+nav {
+    position: relative;
+    top: 120px;
+}
+
+.container {
+    float: left;
+    left: 350px;
+    width: calc(100% - 300px);
+    height: 100vh;
+    top: 0;
+    background-color: #2e9194;
+    color: white;
+    padding-left: 30px;
+    padding-top: 150px;
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.joel {
+    color: #7a4417;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: justify;
+    padding-right: 100px;
+}
+
+.mailto {
+    color: #7a4417;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+.mailto:hover {
+   text-decoration: underline;
+}
+
+.icon-size {
+    height: 30px;
+    margin: 20px;
+}
+
+.icon-size:hover {
+    size: 20px;
+    background-color: #ffffff;
+    border-radius: 20%;
+}
+
+.menu {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu:hover {
+    color: #2e9194;
+    font-weight: bold;
+}
+
+.navigation li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+
+.listaConhecimentos {
+    font-size: 30px;
+    margin-left: 30px;
+    padding-top: 10px;
+    list-style-type: lower-latin;
+    margin-right: 50px;
+}
+
+.listaObjetivos {
+    font-size: 30px;
+    margin-left: 30px;
+    padding-top: 10px;
+    list-style-type: circle ;
+}
+
+.footer {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #4d4c4c;
+    font-size: 14px;
+}
